@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">bookRepository</string>
+    <string name="main_Activity_title">Generos</string>
+    <string name="btn_genre">Ver mis libros</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_delete">Borrar</string>
+    <string name="title">Titulo</string>
+    <string name="author">Autor</string>
+    <string name="genre">Genero</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_discard">Descartar</string>
+    <string name="dialog_title">Nuevo libro</string>
+    <string name="dialog_book_title">Titulo del libro</string>
+    <string name="placeholder_title">Ingrese un titulo</string>
+    <string name="dialog_book_writer">Escritor</string>
+    <string name="placeholder_writer">Ingrese el escritor del libro</string>
+    <string name="dialog_book_genre">Ingrese el genero</string>
+    <string name="placeholder_genre">Ingrese el genero del libro</string>
+    <string name="dialog_book_synopsis">Ingrese la sinopsis</string>
+    <string name="placeholder_synopsis">Ingrese la sinopsis del libro</string>
+    <string name="btn_add_book">Agregar</string>
+    <string name="back">Volver</string>
+    <string name="booksTitle">Libros</string>
+    <string name="add_book">Agregar</string>
+</resources>

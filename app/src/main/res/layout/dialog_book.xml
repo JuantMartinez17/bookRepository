@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/dialog_title"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_book_title"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="@string/placeholder_title"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:hint="@string/placeholder_title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_book_writer"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et_writer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="@string/placeholder_writer"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:hint="@string/placeholder_writer"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_book_genre"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et_genre"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="Ingrese el género del libro"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:hint="@string/placeholder_genre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_book_synopsis"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/et_synopsis"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="Ingrese la sinopsis del libro"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:hint="@string/placeholder_synopsis"
+        />
+
+    <Button
+        android:id="@+id/btn_add_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btn_add_book"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/complementary"
+        />
+
+</LinearLayout>
